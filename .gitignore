@@ -3,6 +3,10 @@
 */packages/
 riderModule.iml
 */_ReSharper.Caches/
-!/.env
-!/.secrets/
-.secrets/
+/.secrets.env
+/.idea/.idea.Segrom.JobObserver.OzonService/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/shelved.patch
+/.idea/.idea.Segrom.JobObserver.OzonService/.idea/shelf/Uncommitted_changes_before_rebase__Changes_.xml
+/.idea/.idea.Segrom.JobObserver.OzonService/.idea/.name
+/.idea/.idea.Segrom.JobObserver.OzonService/.idea/indexLayout.xml
+/.idea/.idea.Segrom.JobObserver.OzonService/.idea/projectSettingsUpdater.xml
+/.idea/.idea.Segrom.JobObserver.OzonService/.idea/workspace.xml

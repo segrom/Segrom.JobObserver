@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Segrom.JobObserver.OzonService.PostgresRepository")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9b92438d668aced0df9592ab9862e1c971b18a69")]
 [assembly: System.Reflection.AssemblyProductAttribute("Segrom.JobObserver.OzonService.PostgresRepository")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Segrom.JobObserver.OzonService.PostgresRepository")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
