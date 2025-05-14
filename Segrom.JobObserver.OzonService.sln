@@ -1,0 +1,160 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Segrom.JobObserver.OzonService.Host", "src\Segrom.JobObserver.OzonService.Host\Segrom.JobObserver.OzonService.Host.csproj", "{5010B482-048B-4E75-90C9-6C86544F9B1C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{545FED14-CA3A-4ABA-8408-32A99E072D06}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "common", "common", "{A3D478E0-DB57-4BCE-8FF8-F30E0C3DD5E5}"
+	ProjectSection(SolutionItems) = preProject
+		docker-compose.yml = docker-compose.yml
+		README.md = README.md
+		.gitignore = .gitignore
+		.gitlab-ci.yml = .gitlab-ci.yml
+		.env = .env
+		prometheus.yml = prometheus.yml
+		graylog.conf = graylog.conf
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{10CFBD8F-8C79-4433-A24C-6362A7C7035D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "external", "external", "{392A9E96-1322-458B-BBC1-F2F5A241AB4A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Segrom.JobObserver.OzonService.Domain", "src\Segrom.JobObserver.OzonService.Domain\Segrom.JobObserver.OzonService.Domain.csproj", "{00E39770-F408-49BE-A658-93B89D2427A3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Segrom.JobObserver.OzonService.Application", "src\Segrom.JobObserver.OzonService.Application\Segrom.JobObserver.OzonService.Application.csproj", "{C282DF53-9585-4405-9374-D05648AD4E42}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Segrom.JobObserver.OzonService.PostgresRepository", "src\Segrom.JobObserver.OzonService.PostgresRepository\Segrom.JobObserver.OzonService.PostgresRepository.csproj", "{1014D432-423C-44DC-A640-6B55386C823F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "infrastructure", "infrastructure", "{0623F4DF-F8D5-4753-84B0-479E4B12B221}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Segrom.JobObserver.OzonService.OzonJobApiClient", "src\Segrom.JobObserver.OzonService.OzonJobApiClient\Segrom.JobObserver.OzonService.OzonJobApiClient.csproj", "{F2433435-63EB-49BF-AF6D-D498F14851EB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Segrom.JobObserver.OzonService.Test", "test\Segrom.JobObserver.OzonService.Test\Segrom.JobObserver.OzonService.Test.csproj", "{D946F768-E940-4179-8EF4-31837968F648}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Segrom.JobObserver.OzonService.TestUtils", "test\Segrom.JobObserver.OzonService.TestUtils\Segrom.JobObserver.OzonService.TestUtils.csproj", "{73D67EEE-D5CC-410E-AFD1-D0498E09975D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Segrom.JobObserver.OzonService.KafkaProducer", "src\Segrom.JobObserver.OzonService.KafkaProducer\Segrom.JobObserver.OzonService.KafkaProducer.csproj", "{26AA7639-FF16-442A-AB7F-A02AB4177A7C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TelegramBot", "TelegramBot", "{FFB19523-857B-4214-AEFB-C1364E59F06F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Segrom.JobObserver.TelegramBot.Host", "external\TelegramBot\src\Segrom.JobObserver.TelegramBot.Host\Segrom.JobObserver.TelegramBot.Host.csproj", "{04F5989D-02D1-4BAA-8E94-39B4F3BA3DF4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Segrom.JobObserver.TelegramBot.Client", "external\TelegramBot\src\Segrom.JobObserver.TelegramBot.Client\Segrom.JobObserver.TelegramBot.Client.csproj", "{8C1630F7-EA27-4B48-9382-FC1E5C54B88C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Segrom.JobObserver.TelegramBot.KafkaConsumer", "external\TelegramBot\src\Segrom.JobObserver.TelegramBot.KafkaConsumer\Segrom.JobObserver.TelegramBot.KafkaConsumer.csproj", "{1E86D16A-53B7-41AB-B1A7-8796705BB003}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Segrom.JobObserver.TelegramBot.Application", "external\TelegramBot\src\Segrom.JobObserver.TelegramBot.Application\Segrom.JobObserver.TelegramBot.Application.csproj", "{03352815-4876-475B-82C9-6F8272215951}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "infrastructure", "infrastructure", "{35668AD3-49ED-45EC-88AA-A7F3C4A192FB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Segrom.JobObserver.TelegramBot.PostgresRepository", "external\TelegramBot\src\Segrom.JobObserver.TelegramBot.PostgresRepository\Segrom.JobObserver.TelegramBot.PostgresRepository.csproj", "{F423B73A-C53C-4075-B133-7E251A7A20A7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Segrom.JobObserver.TelegramBot.Domain", "external\TelegramBot\src\Segrom.JobObserver.TelegramBot.Domain\Segrom.JobObserver.TelegramBot.Domain.csproj", "{300C8A6C-C8B4-4AEB-B8E6-596EC795167A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Segrom.JobObserver.TelegramBot.OzonServiceGrpcClient", "external\TelegramBot\src\Segrom.JobObserver.TelegramBot.OzonServiceGrpcClient\Segrom.JobObserver.TelegramBot.OzonServiceGrpcClient.csproj", "{29E1DF9C-7F76-4AF4-9C91-7EE13EBCAF7E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{4F82F1D6-4547-42D5-AFE2-1033CBA76A66}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Segrom.JobObserver.TelegramBot.Test", "external\TelegramBot\test\Segrom.JobObserver.TelegramBot.Test\Segrom.JobObserver.TelegramBot.Test.csproj", "{838D5749-9684-4169-9886-5AD2288F91C9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Segrom.JobObserver.IntegrationTest", "test\Segrom.JobObserver.IntegrationTest\Segrom.JobObserver.IntegrationTest.csproj", "{67BDDA25-1221-475C-A6C0-D6B4EC33CC41}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5010B482-048B-4E75-90C9-6C86544F9B1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5010B482-048B-4E75-90C9-6C86544F9B1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5010B482-048B-4E75-90C9-6C86544F9B1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5010B482-048B-4E75-90C9-6C86544F9B1C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00E39770-F408-49BE-A658-93B89D2427A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00E39770-F408-49BE-A658-93B89D2427A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00E39770-F408-49BE-A658-93B89D2427A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00E39770-F408-49BE-A658-93B89D2427A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C282DF53-9585-4405-9374-D05648AD4E42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C282DF53-9585-4405-9374-D05648AD4E42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C282DF53-9585-4405-9374-D05648AD4E42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C282DF53-9585-4405-9374-D05648AD4E42}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1014D432-423C-44DC-A640-6B55386C823F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1014D432-423C-44DC-A640-6B55386C823F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1014D432-423C-44DC-A640-6B55386C823F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1014D432-423C-44DC-A640-6B55386C823F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2433435-63EB-49BF-AF6D-D498F14851EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2433435-63EB-49BF-AF6D-D498F14851EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2433435-63EB-49BF-AF6D-D498F14851EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2433435-63EB-49BF-AF6D-D498F14851EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D946F768-E940-4179-8EF4-31837968F648}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D946F768-E940-4179-8EF4-31837968F648}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D946F768-E940-4179-8EF4-31837968F648}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D946F768-E940-4179-8EF4-31837968F648}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73D67EEE-D5CC-410E-AFD1-D0498E09975D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73D67EEE-D5CC-410E-AFD1-D0498E09975D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73D67EEE-D5CC-410E-AFD1-D0498E09975D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73D67EEE-D5CC-410E-AFD1-D0498E09975D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26AA7639-FF16-442A-AB7F-A02AB4177A7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26AA7639-FF16-442A-AB7F-A02AB4177A7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26AA7639-FF16-442A-AB7F-A02AB4177A7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26AA7639-FF16-442A-AB7F-A02AB4177A7C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04F5989D-02D1-4BAA-8E94-39B4F3BA3DF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04F5989D-02D1-4BAA-8E94-39B4F3BA3DF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04F5989D-02D1-4BAA-8E94-39B4F3BA3DF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04F5989D-02D1-4BAA-8E94-39B4F3BA3DF4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C1630F7-EA27-4B48-9382-FC1E5C54B88C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C1630F7-EA27-4B48-9382-FC1E5C54B88C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C1630F7-EA27-4B48-9382-FC1E5C54B88C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C1630F7-EA27-4B48-9382-FC1E5C54B88C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E86D16A-53B7-41AB-B1A7-8796705BB003}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E86D16A-53B7-41AB-B1A7-8796705BB003}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E86D16A-53B7-41AB-B1A7-8796705BB003}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E86D16A-53B7-41AB-B1A7-8796705BB003}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03352815-4876-475B-82C9-6F8272215951}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03352815-4876-475B-82C9-6F8272215951}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03352815-4876-475B-82C9-6F8272215951}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03352815-4876-475B-82C9-6F8272215951}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F423B73A-C53C-4075-B133-7E251A7A20A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F423B73A-C53C-4075-B133-7E251A7A20A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F423B73A-C53C-4075-B133-7E251A7A20A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F423B73A-C53C-4075-B133-7E251A7A20A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{300C8A6C-C8B4-4AEB-B8E6-596EC795167A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{300C8A6C-C8B4-4AEB-B8E6-596EC795167A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{300C8A6C-C8B4-4AEB-B8E6-596EC795167A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{300C8A6C-C8B4-4AEB-B8E6-596EC795167A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29E1DF9C-7F76-4AF4-9C91-7EE13EBCAF7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29E1DF9C-7F76-4AF4-9C91-7EE13EBCAF7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29E1DF9C-7F76-4AF4-9C91-7EE13EBCAF7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29E1DF9C-7F76-4AF4-9C91-7EE13EBCAF7E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{838D5749-9684-4169-9886-5AD2288F91C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{838D5749-9684-4169-9886-5AD2288F91C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{838D5749-9684-4169-9886-5AD2288F91C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{838D5749-9684-4169-9886-5AD2288F91C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67BDDA25-1221-475C-A6C0-D6B4EC33CC41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67BDDA25-1221-475C-A6C0-D6B4EC33CC41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67BDDA25-1221-475C-A6C0-D6B4EC33CC41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67BDDA25-1221-475C-A6C0-D6B4EC33CC41}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5010B482-048B-4E75-90C9-6C86544F9B1C} = {545FED14-CA3A-4ABA-8408-32A99E072D06}
+		{00E39770-F408-49BE-A658-93B89D2427A3} = {545FED14-CA3A-4ABA-8408-32A99E072D06}
+		{C282DF53-9585-4405-9374-D05648AD4E42} = {545FED14-CA3A-4ABA-8408-32A99E072D06}
+		{0623F4DF-F8D5-4753-84B0-479E4B12B221} = {545FED14-CA3A-4ABA-8408-32A99E072D06}
+		{1014D432-423C-44DC-A640-6B55386C823F} = {0623F4DF-F8D5-4753-84B0-479E4B12B221}
+		{F2433435-63EB-49BF-AF6D-D498F14851EB} = {0623F4DF-F8D5-4753-84B0-479E4B12B221}
+		{D946F768-E940-4179-8EF4-31837968F648} = {10CFBD8F-8C79-4433-A24C-6362A7C7035D}
+		{73D67EEE-D5CC-410E-AFD1-D0498E09975D} = {10CFBD8F-8C79-4433-A24C-6362A7C7035D}
+		{26AA7639-FF16-442A-AB7F-A02AB4177A7C} = {0623F4DF-F8D5-4753-84B0-479E4B12B221}
+		{FFB19523-857B-4214-AEFB-C1364E59F06F} = {392A9E96-1322-458B-BBC1-F2F5A241AB4A}
+		{04F5989D-02D1-4BAA-8E94-39B4F3BA3DF4} = {FFB19523-857B-4214-AEFB-C1364E59F06F}
+		{03352815-4876-475B-82C9-6F8272215951} = {FFB19523-857B-4214-AEFB-C1364E59F06F}
+		{35668AD3-49ED-45EC-88AA-A7F3C4A192FB} = {FFB19523-857B-4214-AEFB-C1364E59F06F}
+		{8C1630F7-EA27-4B48-9382-FC1E5C54B88C} = {35668AD3-49ED-45EC-88AA-A7F3C4A192FB}
+		{1E86D16A-53B7-41AB-B1A7-8796705BB003} = {35668AD3-49ED-45EC-88AA-A7F3C4A192FB}
+		{F423B73A-C53C-4075-B133-7E251A7A20A7} = {35668AD3-49ED-45EC-88AA-A7F3C4A192FB}
+		{300C8A6C-C8B4-4AEB-B8E6-596EC795167A} = {FFB19523-857B-4214-AEFB-C1364E59F06F}
+		{29E1DF9C-7F76-4AF4-9C91-7EE13EBCAF7E} = {35668AD3-49ED-45EC-88AA-A7F3C4A192FB}
+		{4F82F1D6-4547-42D5-AFE2-1033CBA76A66} = {FFB19523-857B-4214-AEFB-C1364E59F06F}
+		{838D5749-9684-4169-9886-5AD2288F91C9} = {4F82F1D6-4547-42D5-AFE2-1033CBA76A66}
+		{67BDDA25-1221-475C-A6C0-D6B4EC33CC41} = {10CFBD8F-8C79-4433-A24C-6362A7C7035D}
+	EndGlobalSection
+EndGlobal

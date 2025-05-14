@@ -1,0 +1,11 @@
+H:\RiderProjects\Segrom.JobObserver\src\Segrom.JobObserver.OzonService.Domain\bin\Debug\net9.0\Segrom.JobObserver.OzonService.Domain.deps.json
+H:\RiderProjects\Segrom.JobObserver\src\Segrom.JobObserver.OzonService.Domain\bin\Debug\net9.0\Segrom.JobObserver.OzonService.Domain.dll
+H:\RiderProjects\Segrom.JobObserver\src\Segrom.JobObserver.OzonService.Domain\bin\Debug\net9.0\Segrom.JobObserver.OzonService.Domain.pdb
+H:\RiderProjects\Segrom.JobObserver\src\Segrom.JobObserver.OzonService.Domain\obj\Debug\net9.0\Segrom.JobObserver.OzonService.Domain.GeneratedMSBuildEditorConfig.editorconfig
+H:\RiderProjects\Segrom.JobObserver\src\Segrom.JobObserver.OzonService.Domain\obj\Debug\net9.0\Segrom.JobObserver.OzonService.Domain.AssemblyInfoInputs.cache
+H:\RiderProjects\Segrom.JobObserver\src\Segrom.JobObserver.OzonService.Domain\obj\Debug\net9.0\Segrom.JobObserver.OzonService.Domain.AssemblyInfo.cs
+H:\RiderProjects\Segrom.JobObserver\src\Segrom.JobObserver.OzonService.Domain\obj\Debug\net9.0\Segrom.JobObserver.OzonService.Domain.csproj.CoreCompileInputs.cache
+H:\RiderProjects\Segrom.JobObserver\src\Segrom.JobObserver.OzonService.Domain\obj\Debug\net9.0\Segrom.JobObserver.OzonService.Domain.dll
+H:\RiderProjects\Segrom.JobObserver\src\Segrom.JobObserver.OzonService.Domain\obj\Debug\net9.0\refint\Segrom.JobObserver.OzonService.Domain.dll
+H:\RiderProjects\Segrom.JobObserver\src\Segrom.JobObserver.OzonService.Domain\obj\Debug\net9.0\Segrom.JobObserver.OzonService.Domain.pdb
+H:\RiderProjects\Segrom.JobObserver\src\Segrom.JobObserver.OzonService.Domain\obj\Debug\net9.0\ref\Segrom.JobObserver.OzonService.Domain.dll

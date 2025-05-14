@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "JTAK8q/wbkDpzJ5WIgkL6pAeQwGD2wDyEOU5moI4O88=",
+  "Source": "Segrom.JobObserver.TelegramBot.Host",
+  "BasePath": "_content/Segrom.JobObserver.TelegramBot.Host",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

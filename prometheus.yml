@@ -1,0 +1,17 @@
+﻿global:
+  scrape_interval: 15s
+
+scrape_configs:
+  - job_name: 'ozon-vacancy-service'
+    static_configs:
+      - targets: ['ozon-vacancy-service:5001']
+    metrics_path: '/metrics'
+    
+  - job_name: 'telegram-bot'
+    static_configs:
+      - targets: [ 'telegram-bot:5001' ]
+    metrics_path: '/metrics'
+
+  - job_name: 'prometheus'
+    static_configs:
+      - targets: ['localhost:9090']

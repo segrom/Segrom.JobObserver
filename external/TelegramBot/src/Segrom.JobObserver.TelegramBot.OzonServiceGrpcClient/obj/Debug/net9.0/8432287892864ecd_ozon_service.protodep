@@ -1,0 +1,2 @@
+obj\Debug\net9.0/OzonService.cs \
+obj\Debug\net9.0/OzonServiceGrpc.cs: ../../../src/Segrom.JobObserver.OzonService.Host/Protos/ozon_service.proto

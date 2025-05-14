@@ -1,0 +1,54 @@
+stages:
+  - build
+  - test
+  - deploy
+
+services:
+  - name: postgres:latest
+    alias: postgres
+  - name: krisgeus/docker-kafka
+    alias: kafka
+
+variables:
+  POSTGRES_DB: test
+  POSTGRES_USER: postgres
+  POSTGRES_PASSWORD: "postgres"
+  POSTGRES_HOST_AUTH_METHOD: trust
+  ADVERTISED_LISTENERS: 'PLAINTEXT://kafka:9092,INTERNAL://localhost:9093'
+  LISTENERS: 'PLAINTEXT://0.0.0.0:9092,INTERNAL://0.0.0.0:9093'
+  SECURITY_PROTOCOL_MAP: 'PLAINTEXT:PLAINTEXT,INTERNAL:PLAINTEXT'
+  INTER_BROKER: 'INTERNAL'
+
+bot-build:
+  stage: build
+  image: mcr.microsoft.com/dotnet/sdk:9.0
+  needs: []
+  script:
+    - dotnet restore external/TelegramBot/src/Segrom.JobObserver.TelegramBot.Host
+    - dotnet build external/TelegramBot/src/Segrom.JobObserver.TelegramBot.Host --no-restore
+
+ozon-vacancies-build:
+  stage: build
+  image: mcr.microsoft.com/dotnet/sdk:9.0
+  needs: []
+  script:
+    - dotnet restore src/Segrom.JobObserver.OzonService.Host
+    - dotnet build src/Segrom.JobObserver.OzonService.Host --no-restore
+
+ozon-vacancies-test:
+  stage: test
+  image: mcr.microsoft.com/dotnet/sdk:9.0
+  needs: ["ozon-vacancies-build"]
+  script:
+    - dotnet restore test/Segrom.JobObserver.OzonService.Test
+    - dotnet build test/Segrom.JobObserver.OzonService.Test --no-restore
+    - cd test/Segrom.JobObserver.OzonService.Test && dotnet test --no-restore
+
+bot-test:
+  stage: test
+  image: mcr.microsoft.com/dotnet/sdk:9.0
+  needs: ["bot-build"]
+  script:
+    - dotnet restore external/TelegramBot/test/Segrom.JobObserver.TelegramBot.Test
+    - dotnet build external/TelegramBot/test/Segrom.JobObserver.TelegramBot.Test --no-restore
+    - cd external/TelegramBot/test/Segrom.JobObserver.TelegramBot.Test && dotnet test --no-restore

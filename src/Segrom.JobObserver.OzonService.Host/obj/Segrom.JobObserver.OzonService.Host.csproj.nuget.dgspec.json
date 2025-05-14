@@ -1,0 +1,515 @@
+{
+  "format": 1,
+  "restore": {
+    "H:\\RiderProjects\\Segrom.JobObserver\\src\\Segrom.JobObserver.OzonService.Host\\Segrom.JobObserver.OzonService.Host.csproj": {}
+  },
+  "projects": {
+    "H:\\RiderProjects\\Segrom.JobObserver\\src\\Segrom.JobObserver.OzonService.Application\\Segrom.JobObserver.OzonService.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "H:\\RiderProjects\\Segrom.JobObserver\\src\\Segrom.JobObserver.OzonService.Application\\Segrom.JobObserver.OzonService.Application.csproj",
+        "projectName": "Segrom.JobObserver.OzonService.Application",
+        "projectPath": "H:\\RiderProjects\\Segrom.JobObserver\\src\\Segrom.JobObserver.OzonService.Application\\Segrom.JobObserver.OzonService.Application.csproj",
+        "packagesPath": "C:\\Users\\segro_c4h97pj\\.nuget\\packages\\",
+        "outputPath": "H:\\RiderProjects\\Segrom.JobObserver\\src\\Segrom.JobObserver.OzonService.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\segro_c4h97pj\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "H:\\RiderProjects\\Segrom.JobObserver\\src\\Segrom.JobObserver.OzonService.Domain\\Segrom.JobObserver.OzonService.Domain.csproj": {
+                "projectPath": "H:\\RiderProjects\\Segrom.JobObserver\\src\\Segrom.JobObserver.OzonService.Domain\\Segrom.JobObserver.OzonService.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[9.0.4, )"
+            },
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[9.0.4, )"
+            },
+            "prometheus-net": {
+              "target": "Package",
+              "version": "[8.2.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.202/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "H:\\RiderProjects\\Segrom.JobObserver\\src\\Segrom.JobObserver.OzonService.Domain\\Segrom.JobObserver.OzonService.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "H:\\RiderProjects\\Segrom.JobObserver\\src\\Segrom.JobObserver.OzonService.Domain\\Segrom.JobObserver.OzonService.Domain.csproj",
+        "projectName": "Segrom.JobObserver.OzonService.Domain",
+        "projectPath": "H:\\RiderProjects\\Segrom.JobObserver\\src\\Segrom.JobObserver.OzonService.Domain\\Segrom.JobObserver.OzonService.Domain.csproj",
+        "packagesPath": "C:\\Users\\segro_c4h97pj\\.nuget\\packages\\",
+        "outputPath": "H:\\RiderProjects\\Segrom.JobObserver\\src\\Segrom.JobObserver.OzonService.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\segro_c4h97pj\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.202/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "H:\\RiderProjects\\Segrom.JobObserver\\src\\Segrom.JobObserver.OzonService.Host\\Segrom.JobObserver.OzonService.Host.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "H:\\RiderProjects\\Segrom.JobObserver\\src\\Segrom.JobObserver.OzonService.Host\\Segrom.JobObserver.OzonService.Host.csproj",
+        "projectName": "Segrom.JobObserver.OzonService.Host",
+        "projectPath": "H:\\RiderProjects\\Segrom.JobObserver\\src\\Segrom.JobObserver.OzonService.Host\\Segrom.JobObserver.OzonService.Host.csproj",
+        "packagesPath": "C:\\Users\\segro_c4h97pj\\.nuget\\packages\\",
+        "outputPath": "H:\\RiderProjects\\Segrom.JobObserver\\src\\Segrom.JobObserver.OzonService.Host\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\segro_c4h97pj\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "H:\\RiderProjects\\Segrom.JobObserver\\src\\Segrom.JobObserver.OzonService.Application\\Segrom.JobObserver.OzonService.Application.csproj": {
+                "projectPath": "H:\\RiderProjects\\Segrom.JobObserver\\src\\Segrom.JobObserver.OzonService.Application\\Segrom.JobObserver.OzonService.Application.csproj"
+              },
+              "H:\\RiderProjects\\Segrom.JobObserver\\src\\Segrom.JobObserver.OzonService.Domain\\Segrom.JobObserver.OzonService.Domain.csproj": {
+                "projectPath": "H:\\RiderProjects\\Segrom.JobObserver\\src\\Segrom.JobObserver.OzonService.Domain\\Segrom.JobObserver.OzonService.Domain.csproj"
+              },
+              "H:\\RiderProjects\\Segrom.JobObserver\\src\\Segrom.JobObserver.OzonService.KafkaProducer\\Segrom.JobObserver.OzonService.KafkaProducer.csproj": {
+                "projectPath": "H:\\RiderProjects\\Segrom.JobObserver\\src\\Segrom.JobObserver.OzonService.KafkaProducer\\Segrom.JobObserver.OzonService.KafkaProducer.csproj"
+              },
+              "H:\\RiderProjects\\Segrom.JobObserver\\src\\Segrom.JobObserver.OzonService.OzonJobApiClient\\Segrom.JobObserver.OzonService.OzonJobApiClient.csproj": {
+                "projectPath": "H:\\RiderProjects\\Segrom.JobObserver\\src\\Segrom.JobObserver.OzonService.OzonJobApiClient\\Segrom.JobObserver.OzonService.OzonJobApiClient.csproj"
+              },
+              "H:\\RiderProjects\\Segrom.JobObserver\\src\\Segrom.JobObserver.OzonService.PostgresRepository\\Segrom.JobObserver.OzonService.PostgresRepository.csproj": {
+                "projectPath": "H:\\RiderProjects\\Segrom.JobObserver\\src\\Segrom.JobObserver.OzonService.PostgresRepository\\Segrom.JobObserver.OzonService.PostgresRepository.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Grpc.AspNetCore": {
+              "target": "Package",
+              "version": "[2.64.0, )"
+            },
+            "Grpc.AspNetCore.Server.Reflection": {
+              "target": "Package",
+              "version": "[2.71.0, )"
+            },
+            "Grpc.Reflection": {
+              "target": "Package",
+              "version": "[2.71.0, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Serilog.Sinks.Graylog": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "prometheus-net.AspNetCore": {
+              "target": "Package",
+              "version": "[8.2.1, )"
+            },
+            "prometheus-net.AspNetCore.HealthChecks": {
+              "target": "Package",
+              "version": "[8.2.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.202/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "H:\\RiderProjects\\Segrom.JobObserver\\src\\Segrom.JobObserver.OzonService.KafkaProducer\\Segrom.JobObserver.OzonService.KafkaProducer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "H:\\RiderProjects\\Segrom.JobObserver\\src\\Segrom.JobObserver.OzonService.KafkaProducer\\Segrom.JobObserver.OzonService.KafkaProducer.csproj",
+        "projectName": "Segrom.JobObserver.OzonService.KafkaProducer",
+        "projectPath": "H:\\RiderProjects\\Segrom.JobObserver\\src\\Segrom.JobObserver.OzonService.KafkaProducer\\Segrom.JobObserver.OzonService.KafkaProducer.csproj",
+        "packagesPath": "C:\\Users\\segro_c4h97pj\\.nuget\\packages\\",
+        "outputPath": "H:\\RiderProjects\\Segrom.JobObserver\\src\\Segrom.JobObserver.OzonService.KafkaProducer\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\segro_c4h97pj\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "H:\\RiderProjects\\Segrom.JobObserver\\src\\Segrom.JobObserver.OzonService.Application\\Segrom.JobObserver.OzonService.Application.csproj": {
+                "projectPath": "H:\\RiderProjects\\Segrom.JobObserver\\src\\Segrom.JobObserver.OzonService.Application\\Segrom.JobObserver.OzonService.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Confluent.Kafka": {
+              "target": "Package",
+              "version": "[2.10.0, )"
+            },
+            "Microsoft.AspNetCore.Http.Abstractions": {
+              "target": "Package",
+              "version": "[2.3.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[9.0.4, )"
+            },
+            "Microsoft.Extensions.Hosting.Abstractions": {
+              "target": "Package",
+              "version": "[9.0.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.202/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "H:\\RiderProjects\\Segrom.JobObserver\\src\\Segrom.JobObserver.OzonService.OzonJobApiClient\\Segrom.JobObserver.OzonService.OzonJobApiClient.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "H:\\RiderProjects\\Segrom.JobObserver\\src\\Segrom.JobObserver.OzonService.OzonJobApiClient\\Segrom.JobObserver.OzonService.OzonJobApiClient.csproj",
+        "projectName": "Segrom.JobObserver.OzonService.OzonJobApiClient",
+        "projectPath": "H:\\RiderProjects\\Segrom.JobObserver\\src\\Segrom.JobObserver.OzonService.OzonJobApiClient\\Segrom.JobObserver.OzonService.OzonJobApiClient.csproj",
+        "packagesPath": "C:\\Users\\segro_c4h97pj\\.nuget\\packages\\",
+        "outputPath": "H:\\RiderProjects\\Segrom.JobObserver\\src\\Segrom.JobObserver.OzonService.OzonJobApiClient\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\segro_c4h97pj\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "H:\\RiderProjects\\Segrom.JobObserver\\src\\Segrom.JobObserver.OzonService.Application\\Segrom.JobObserver.OzonService.Application.csproj": {
+                "projectPath": "H:\\RiderProjects\\Segrom.JobObserver\\src\\Segrom.JobObserver.OzonService.Application\\Segrom.JobObserver.OzonService.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Http": {
+              "target": "Package",
+              "version": "[2.3.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[9.0.4, )"
+            },
+            "Microsoft.Extensions.Http": {
+              "target": "Package",
+              "version": "[9.0.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.202/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "H:\\RiderProjects\\Segrom.JobObserver\\src\\Segrom.JobObserver.OzonService.PostgresRepository\\Segrom.JobObserver.OzonService.PostgresRepository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "H:\\RiderProjects\\Segrom.JobObserver\\src\\Segrom.JobObserver.OzonService.PostgresRepository\\Segrom.JobObserver.OzonService.PostgresRepository.csproj",
+        "projectName": "Segrom.JobObserver.OzonService.PostgresRepository",
+        "projectPath": "H:\\RiderProjects\\Segrom.JobObserver\\src\\Segrom.JobObserver.OzonService.PostgresRepository\\Segrom.JobObserver.OzonService.PostgresRepository.csproj",
+        "packagesPath": "C:\\Users\\segro_c4h97pj\\.nuget\\packages\\",
+        "outputPath": "H:\\RiderProjects\\Segrom.JobObserver\\src\\Segrom.JobObserver.OzonService.PostgresRepository\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\segro_c4h97pj\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "H:\\RiderProjects\\Segrom.JobObserver\\src\\Segrom.JobObserver.OzonService.Application\\Segrom.JobObserver.OzonService.Application.csproj": {
+                "projectPath": "H:\\RiderProjects\\Segrom.JobObserver\\src\\Segrom.JobObserver.OzonService.Application\\Segrom.JobObserver.OzonService.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.1.66, )"
+            },
+            "FluentMigrator": {
+              "target": "Package",
+              "version": "[7.1.0, )"
+            },
+            "FluentMigrator.Runner": {
+              "target": "Package",
+              "version": "[7.1.0, )"
+            },
+            "Microsoft.AspNetCore.Http.Abstractions": {
+              "target": "Package",
+              "version": "[2.3.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[9.0.4, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[9.0.4, )"
+            },
+            "Npgsql": {
+              "target": "Package",
+              "version": "[9.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.202/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,576 @@
+{
+  "format": 1,
+  "restore": {
+    "H:\\RiderProjects\\Segrom.JobObserver\\external\\TelegramBot\\src\\Segrom.JobObserver.TelegramBot.Host\\Segrom.JobObserver.TelegramBot.Host.csproj": {}
+  },
+  "projects": {
+    "H:\\RiderProjects\\Segrom.JobObserver\\external\\TelegramBot\\src\\Segrom.JobObserver.TelegramBot.Application\\Segrom.JobObserver.TelegramBot.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "H:\\RiderProjects\\Segrom.JobObserver\\external\\TelegramBot\\src\\Segrom.JobObserver.TelegramBot.Application\\Segrom.JobObserver.TelegramBot.Application.csproj",
+        "projectName": "Segrom.JobObserver.TelegramBot.Application",
+        "projectPath": "H:\\RiderProjects\\Segrom.JobObserver\\external\\TelegramBot\\src\\Segrom.JobObserver.TelegramBot.Application\\Segrom.JobObserver.TelegramBot.Application.csproj",
+        "packagesPath": "C:\\Users\\segro_c4h97pj\\.nuget\\packages\\",
+        "outputPath": "H:\\RiderProjects\\Segrom.JobObserver\\external\\TelegramBot\\src\\Segrom.JobObserver.TelegramBot.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\segro_c4h97pj\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "H:\\RiderProjects\\Segrom.JobObserver\\external\\TelegramBot\\src\\Segrom.JobObserver.TelegramBot.Domain\\Segrom.JobObserver.TelegramBot.Domain.csproj": {
+                "projectPath": "H:\\RiderProjects\\Segrom.JobObserver\\external\\TelegramBot\\src\\Segrom.JobObserver.TelegramBot.Domain\\Segrom.JobObserver.TelegramBot.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[9.0.4, )"
+            },
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[9.0.4, )"
+            },
+            "prometheus-net": {
+              "target": "Package",
+              "version": "[8.2.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.202/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "H:\\RiderProjects\\Segrom.JobObserver\\external\\TelegramBot\\src\\Segrom.JobObserver.TelegramBot.Client\\Segrom.JobObserver.TelegramBot.Client.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "H:\\RiderProjects\\Segrom.JobObserver\\external\\TelegramBot\\src\\Segrom.JobObserver.TelegramBot.Client\\Segrom.JobObserver.TelegramBot.Client.csproj",
+        "projectName": "Segrom.JobObserver.TelegramBot.Client",
+        "projectPath": "H:\\RiderProjects\\Segrom.JobObserver\\external\\TelegramBot\\src\\Segrom.JobObserver.TelegramBot.Client\\Segrom.JobObserver.TelegramBot.Client.csproj",
+        "packagesPath": "C:\\Users\\segro_c4h97pj\\.nuget\\packages\\",
+        "outputPath": "H:\\RiderProjects\\Segrom.JobObserver\\external\\TelegramBot\\src\\Segrom.JobObserver.TelegramBot.Client\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\segro_c4h97pj\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "H:\\RiderProjects\\Segrom.JobObserver\\external\\TelegramBot\\src\\Segrom.JobObserver.TelegramBot.Application\\Segrom.JobObserver.TelegramBot.Application.csproj": {
+                "projectPath": "H:\\RiderProjects\\Segrom.JobObserver\\external\\TelegramBot\\src\\Segrom.JobObserver.TelegramBot.Application\\Segrom.JobObserver.TelegramBot.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Http.Abstractions": {
+              "target": "Package",
+              "version": "[2.3.0, )"
+            },
+            "Telegram.Bot": {
+              "target": "Package",
+              "version": "[22.5.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.202/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "H:\\RiderProjects\\Segrom.JobObserver\\external\\TelegramBot\\src\\Segrom.JobObserver.TelegramBot.Domain\\Segrom.JobObserver.TelegramBot.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "H:\\RiderProjects\\Segrom.JobObserver\\external\\TelegramBot\\src\\Segrom.JobObserver.TelegramBot.Domain\\Segrom.JobObserver.TelegramBot.Domain.csproj",
+        "projectName": "Segrom.JobObserver.TelegramBot.Domain",
+        "projectPath": "H:\\RiderProjects\\Segrom.JobObserver\\external\\TelegramBot\\src\\Segrom.JobObserver.TelegramBot.Domain\\Segrom.JobObserver.TelegramBot.Domain.csproj",
+        "packagesPath": "C:\\Users\\segro_c4h97pj\\.nuget\\packages\\",
+        "outputPath": "H:\\RiderProjects\\Segrom.JobObserver\\external\\TelegramBot\\src\\Segrom.JobObserver.TelegramBot.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\segro_c4h97pj\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.202/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "H:\\RiderProjects\\Segrom.JobObserver\\external\\TelegramBot\\src\\Segrom.JobObserver.TelegramBot.Host\\Segrom.JobObserver.TelegramBot.Host.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "H:\\RiderProjects\\Segrom.JobObserver\\external\\TelegramBot\\src\\Segrom.JobObserver.TelegramBot.Host\\Segrom.JobObserver.TelegramBot.Host.csproj",
+        "projectName": "Segrom.JobObserver.TelegramBot.Host",
+        "projectPath": "H:\\RiderProjects\\Segrom.JobObserver\\external\\TelegramBot\\src\\Segrom.JobObserver.TelegramBot.Host\\Segrom.JobObserver.TelegramBot.Host.csproj",
+        "packagesPath": "C:\\Users\\segro_c4h97pj\\.nuget\\packages\\",
+        "outputPath": "H:\\RiderProjects\\Segrom.JobObserver\\external\\TelegramBot\\src\\Segrom.JobObserver.TelegramBot.Host\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\segro_c4h97pj\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "H:\\RiderProjects\\Segrom.JobObserver\\external\\TelegramBot\\src\\Segrom.JobObserver.TelegramBot.Client\\Segrom.JobObserver.TelegramBot.Client.csproj": {
+                "projectPath": "H:\\RiderProjects\\Segrom.JobObserver\\external\\TelegramBot\\src\\Segrom.JobObserver.TelegramBot.Client\\Segrom.JobObserver.TelegramBot.Client.csproj"
+              },
+              "H:\\RiderProjects\\Segrom.JobObserver\\external\\TelegramBot\\src\\Segrom.JobObserver.TelegramBot.KafkaConsumer\\Segrom.JobObserver.TelegramBot.KafkaConsumer.csproj": {
+                "projectPath": "H:\\RiderProjects\\Segrom.JobObserver\\external\\TelegramBot\\src\\Segrom.JobObserver.TelegramBot.KafkaConsumer\\Segrom.JobObserver.TelegramBot.KafkaConsumer.csproj"
+              },
+              "H:\\RiderProjects\\Segrom.JobObserver\\external\\TelegramBot\\src\\Segrom.JobObserver.TelegramBot.OzonServiceGrpcClient\\Segrom.JobObserver.TelegramBot.OzonServiceGrpcClient.csproj": {
+                "projectPath": "H:\\RiderProjects\\Segrom.JobObserver\\external\\TelegramBot\\src\\Segrom.JobObserver.TelegramBot.OzonServiceGrpcClient\\Segrom.JobObserver.TelegramBot.OzonServiceGrpcClient.csproj"
+              },
+              "H:\\RiderProjects\\Segrom.JobObserver\\external\\TelegramBot\\src\\Segrom.JobObserver.TelegramBot.PostgresRepository\\Segrom.JobObserver.TelegramBot.PostgresRepository.csproj": {
+                "projectPath": "H:\\RiderProjects\\Segrom.JobObserver\\external\\TelegramBot\\src\\Segrom.JobObserver.TelegramBot.PostgresRepository\\Segrom.JobObserver.TelegramBot.PostgresRepository.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Serilog.Sinks.Graylog": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "prometheus-net.AspNetCore.HealthChecks": {
+              "target": "Package",
+              "version": "[8.2.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.202/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "H:\\RiderProjects\\Segrom.JobObserver\\external\\TelegramBot\\src\\Segrom.JobObserver.TelegramBot.KafkaConsumer\\Segrom.JobObserver.TelegramBot.KafkaConsumer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "H:\\RiderProjects\\Segrom.JobObserver\\external\\TelegramBot\\src\\Segrom.JobObserver.TelegramBot.KafkaConsumer\\Segrom.JobObserver.TelegramBot.KafkaConsumer.csproj",
+        "projectName": "Segrom.JobObserver.TelegramBot.KafkaConsumer",
+        "projectPath": "H:\\RiderProjects\\Segrom.JobObserver\\external\\TelegramBot\\src\\Segrom.JobObserver.TelegramBot.KafkaConsumer\\Segrom.JobObserver.TelegramBot.KafkaConsumer.csproj",
+        "packagesPath": "C:\\Users\\segro_c4h97pj\\.nuget\\packages\\",
+        "outputPath": "H:\\RiderProjects\\Segrom.JobObserver\\external\\TelegramBot\\src\\Segrom.JobObserver.TelegramBot.KafkaConsumer\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\segro_c4h97pj\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "H:\\RiderProjects\\Segrom.JobObserver\\external\\TelegramBot\\src\\Segrom.JobObserver.TelegramBot.Application\\Segrom.JobObserver.TelegramBot.Application.csproj": {
+                "projectPath": "H:\\RiderProjects\\Segrom.JobObserver\\external\\TelegramBot\\src\\Segrom.JobObserver.TelegramBot.Application\\Segrom.JobObserver.TelegramBot.Application.csproj"
+              },
+              "H:\\RiderProjects\\Segrom.JobObserver\\external\\TelegramBot\\src\\Segrom.JobObserver.TelegramBot.Domain\\Segrom.JobObserver.TelegramBot.Domain.csproj": {
+                "projectPath": "H:\\RiderProjects\\Segrom.JobObserver\\external\\TelegramBot\\src\\Segrom.JobObserver.TelegramBot.Domain\\Segrom.JobObserver.TelegramBot.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Confluent.Kafka": {
+              "target": "Package",
+              "version": "[2.10.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[9.0.4, )"
+            },
+            "Microsoft.Extensions.Hosting.Abstractions": {
+              "target": "Package",
+              "version": "[9.0.4, )"
+            },
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[9.0.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.202/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "H:\\RiderProjects\\Segrom.JobObserver\\external\\TelegramBot\\src\\Segrom.JobObserver.TelegramBot.OzonServiceGrpcClient\\Segrom.JobObserver.TelegramBot.OzonServiceGrpcClient.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "H:\\RiderProjects\\Segrom.JobObserver\\external\\TelegramBot\\src\\Segrom.JobObserver.TelegramBot.OzonServiceGrpcClient\\Segrom.JobObserver.TelegramBot.OzonServiceGrpcClient.csproj",
+        "projectName": "Segrom.JobObserver.TelegramBot.OzonServiceGrpcClient",
+        "projectPath": "H:\\RiderProjects\\Segrom.JobObserver\\external\\TelegramBot\\src\\Segrom.JobObserver.TelegramBot.OzonServiceGrpcClient\\Segrom.JobObserver.TelegramBot.OzonServiceGrpcClient.csproj",
+        "packagesPath": "C:\\Users\\segro_c4h97pj\\.nuget\\packages\\",
+        "outputPath": "H:\\RiderProjects\\Segrom.JobObserver\\external\\TelegramBot\\src\\Segrom.JobObserver.TelegramBot.OzonServiceGrpcClient\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\segro_c4h97pj\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "H:\\RiderProjects\\Segrom.JobObserver\\external\\TelegramBot\\src\\Segrom.JobObserver.TelegramBot.Application\\Segrom.JobObserver.TelegramBot.Application.csproj": {
+                "projectPath": "H:\\RiderProjects\\Segrom.JobObserver\\external\\TelegramBot\\src\\Segrom.JobObserver.TelegramBot.Application\\Segrom.JobObserver.TelegramBot.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Google.Protobuf": {
+              "target": "Package",
+              "version": "[3.30.2, )"
+            },
+            "Grpc.Net.Client": {
+              "target": "Package",
+              "version": "[2.71.0, )"
+            },
+            "Grpc.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.72.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[9.0.4, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[9.0.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.202/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "H:\\RiderProjects\\Segrom.JobObserver\\external\\TelegramBot\\src\\Segrom.JobObserver.TelegramBot.PostgresRepository\\Segrom.JobObserver.TelegramBot.PostgresRepository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "H:\\RiderProjects\\Segrom.JobObserver\\external\\TelegramBot\\src\\Segrom.JobObserver.TelegramBot.PostgresRepository\\Segrom.JobObserver.TelegramBot.PostgresRepository.csproj",
+        "projectName": "Segrom.JobObserver.TelegramBot.PostgresRepository",
+        "projectPath": "H:\\RiderProjects\\Segrom.JobObserver\\external\\TelegramBot\\src\\Segrom.JobObserver.TelegramBot.PostgresRepository\\Segrom.JobObserver.TelegramBot.PostgresRepository.csproj",
+        "packagesPath": "C:\\Users\\segro_c4h97pj\\.nuget\\packages\\",
+        "outputPath": "H:\\RiderProjects\\Segrom.JobObserver\\external\\TelegramBot\\src\\Segrom.JobObserver.TelegramBot.PostgresRepository\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\segro_c4h97pj\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "H:\\RiderProjects\\Segrom.JobObserver\\external\\TelegramBot\\src\\Segrom.JobObserver.TelegramBot.Application\\Segrom.JobObserver.TelegramBot.Application.csproj": {
+                "projectPath": "H:\\RiderProjects\\Segrom.JobObserver\\external\\TelegramBot\\src\\Segrom.JobObserver.TelegramBot.Application\\Segrom.JobObserver.TelegramBot.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.1.66, )"
+            },
+            "FluentMigrator.Runner": {
+              "target": "Package",
+              "version": "[7.1.0, )"
+            },
+            "Microsoft.AspNetCore.Http.Abstractions": {
+              "target": "Package",
+              "version": "[2.3.0, )"
+            },
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[9.0.4, )"
+            },
+            "Npgsql": {
+              "target": "Package",
+              "version": "[9.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.202/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\Segrom.JobObserver.OzonService.Host.props" />
+</Project>

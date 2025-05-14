@@ -1,0 +1,17 @@
+H:\RiderProjects\Segrom.JobObserver\src\Segrom.JobObserver.OzonService.PostgresRepository\bin\Debug\net9.0\Segrom.JobObserver.OzonService.PostgresRepository.deps.json
+H:\RiderProjects\Segrom.JobObserver\src\Segrom.JobObserver.OzonService.PostgresRepository\bin\Debug\net9.0\Segrom.JobObserver.OzonService.PostgresRepository.dll
+H:\RiderProjects\Segrom.JobObserver\src\Segrom.JobObserver.OzonService.PostgresRepository\bin\Debug\net9.0\Segrom.JobObserver.OzonService.PostgresRepository.pdb
+H:\RiderProjects\Segrom.JobObserver\src\Segrom.JobObserver.OzonService.PostgresRepository\bin\Debug\net9.0\Segrom.JobObserver.OzonService.Application.dll
+H:\RiderProjects\Segrom.JobObserver\src\Segrom.JobObserver.OzonService.PostgresRepository\bin\Debug\net9.0\Segrom.JobObserver.OzonService.Domain.dll
+H:\RiderProjects\Segrom.JobObserver\src\Segrom.JobObserver.OzonService.PostgresRepository\bin\Debug\net9.0\Segrom.JobObserver.OzonService.Application.pdb
+H:\RiderProjects\Segrom.JobObserver\src\Segrom.JobObserver.OzonService.PostgresRepository\bin\Debug\net9.0\Segrom.JobObserver.OzonService.Domain.pdb
+H:\RiderProjects\Segrom.JobObserver\src\Segrom.JobObserver.OzonService.PostgresRepository\obj\Debug\net9.0\Segrom.JobObserver.OzonService.PostgresRepository.csproj.AssemblyReference.cache
+H:\RiderProjects\Segrom.JobObserver\src\Segrom.JobObserver.OzonService.PostgresRepository\obj\Debug\net9.0\Segrom.JobObserver.OzonService.PostgresRepository.GeneratedMSBuildEditorConfig.editorconfig
+H:\RiderProjects\Segrom.JobObserver\src\Segrom.JobObserver.OzonService.PostgresRepository\obj\Debug\net9.0\Segrom.JobObserver.OzonService.PostgresRepository.AssemblyInfoInputs.cache
+H:\RiderProjects\Segrom.JobObserver\src\Segrom.JobObserver.OzonService.PostgresRepository\obj\Debug\net9.0\Segrom.JobObserver.OzonService.PostgresRepository.AssemblyInfo.cs
+H:\RiderProjects\Segrom.JobObserver\src\Segrom.JobObserver.OzonService.PostgresRepository\obj\Debug\net9.0\Segrom.JobObserver.OzonService.PostgresRepository.csproj.CoreCompileInputs.cache
+H:\RiderProjects\Segrom.JobObserver\src\Segrom.JobObserver.OzonService.PostgresRepository\obj\Debug\net9.0\Segrom.J.D9B5D1CC.Up2Date
+H:\RiderProjects\Segrom.JobObserver\src\Segrom.JobObserver.OzonService.PostgresRepository\obj\Debug\net9.0\Segrom.JobObserver.OzonService.PostgresRepository.dll
+H:\RiderProjects\Segrom.JobObserver\src\Segrom.JobObserver.OzonService.PostgresRepository\obj\Debug\net9.0\refint\Segrom.JobObserver.OzonService.PostgresRepository.dll
+H:\RiderProjects\Segrom.JobObserver\src\Segrom.JobObserver.OzonService.PostgresRepository\obj\Debug\net9.0\Segrom.JobObserver.OzonService.PostgresRepository.pdb
+H:\RiderProjects\Segrom.JobObserver\src\Segrom.JobObserver.OzonService.PostgresRepository\obj\Debug\net9.0\ref\Segrom.JobObserver.OzonService.PostgresRepository.dll

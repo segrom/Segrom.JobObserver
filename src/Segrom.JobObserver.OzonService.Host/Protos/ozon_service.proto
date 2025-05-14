@@ -1,0 +1,52 @@
+syntax = "proto3";
+
+option csharp_namespace = "Segrom.JobObserver.OzonService.Grpc";
+package segrom.job_observer.ozon_service;
+
+service OzonService {
+  rpc GetVacancies (VacanciesRequest) returns (VacanciesResponse);
+  rpc ForceUpdate (VoidRequest) returns (StatusResponse);
+  rpc FillVacancyInfo (FillVacancyInfoRequest) returns (StatusResponse);
+}
+
+message VacanciesRequest {
+  int32 limit = 1;
+  int32 page = 2;
+}
+
+message VacanciesResponse {
+  oneof Result {
+    Ok success = 1;
+    Error error = 2;
+  }
+  message Ok {
+    repeated Vacancy vacancies = 1;
+  }
+}
+
+message FillVacancyInfoRequest {
+  int64 vacancy_id = 1;
+}
+
+message VoidRequest {}
+
+message StatusResponse {
+  optional Error error = 1;
+}
+
+// common
+message Vacancy {
+  int64 id = 1;
+  string title = 2;
+  string city = 3;
+  string department = 4;
+  string employment = 5;
+  string experience = 6;
+  optional string info = 7;
+  bool is_closed = 8;
+}
+
+message Error {
+  string code = 1;
+  string message = 2;
+}

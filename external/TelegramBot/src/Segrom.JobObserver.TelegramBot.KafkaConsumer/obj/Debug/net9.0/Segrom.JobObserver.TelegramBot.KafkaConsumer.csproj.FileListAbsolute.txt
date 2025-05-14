@@ -1,0 +1,17 @@
+H:\RiderProjects\Segrom.JobObserver\external\TelegramBot\Segrom.JobObserver.TelegramBot.KafkaConsumer\bin\Debug\net9.0\Segrom.JobObserver.TelegramBot.KafkaConsumer.deps.json
+H:\RiderProjects\Segrom.JobObserver\external\TelegramBot\Segrom.JobObserver.TelegramBot.KafkaConsumer\bin\Debug\net9.0\Segrom.JobObserver.TelegramBot.KafkaConsumer.dll
+H:\RiderProjects\Segrom.JobObserver\external\TelegramBot\Segrom.JobObserver.TelegramBot.KafkaConsumer\bin\Debug\net9.0\Segrom.JobObserver.TelegramBot.KafkaConsumer.pdb
+H:\RiderProjects\Segrom.JobObserver\external\TelegramBot\Segrom.JobObserver.TelegramBot.KafkaConsumer\bin\Debug\net9.0\Segrom.JobObserver.TelegramBot.Application.dll
+H:\RiderProjects\Segrom.JobObserver\external\TelegramBot\Segrom.JobObserver.TelegramBot.KafkaConsumer\bin\Debug\net9.0\Segrom.JobObserver.TelegramBot.Domain.dll
+H:\RiderProjects\Segrom.JobObserver\external\TelegramBot\Segrom.JobObserver.TelegramBot.KafkaConsumer\bin\Debug\net9.0\Segrom.JobObserver.TelegramBot.Application.pdb
+H:\RiderProjects\Segrom.JobObserver\external\TelegramBot\Segrom.JobObserver.TelegramBot.KafkaConsumer\bin\Debug\net9.0\Segrom.JobObserver.TelegramBot.Domain.pdb
+H:\RiderProjects\Segrom.JobObserver\external\TelegramBot\Segrom.JobObserver.TelegramBot.KafkaConsumer\obj\Debug\net9.0\Segrom.JobObserver.TelegramBot.KafkaConsumer.csproj.AssemblyReference.cache
+H:\RiderProjects\Segrom.JobObserver\external\TelegramBot\Segrom.JobObserver.TelegramBot.KafkaConsumer\obj\Debug\net9.0\Segrom.JobObserver.TelegramBot.KafkaConsumer.GeneratedMSBuildEditorConfig.editorconfig
+H:\RiderProjects\Segrom.JobObserver\external\TelegramBot\Segrom.JobObserver.TelegramBot.KafkaConsumer\obj\Debug\net9.0\Segrom.JobObserver.TelegramBot.KafkaConsumer.AssemblyInfoInputs.cache
+H:\RiderProjects\Segrom.JobObserver\external\TelegramBot\Segrom.JobObserver.TelegramBot.KafkaConsumer\obj\Debug\net9.0\Segrom.JobObserver.TelegramBot.KafkaConsumer.AssemblyInfo.cs
+H:\RiderProjects\Segrom.JobObserver\external\TelegramBot\Segrom.JobObserver.TelegramBot.KafkaConsumer\obj\Debug\net9.0\Segrom.JobObserver.TelegramBot.KafkaConsumer.csproj.CoreCompileInputs.cache
+H:\RiderProjects\Segrom.JobObserver\external\TelegramBot\Segrom.JobObserver.TelegramBot.KafkaConsumer\obj\Debug\net9.0\Segrom.J.79B2637F.Up2Date
+H:\RiderProjects\Segrom.JobObserver\external\TelegramBot\Segrom.JobObserver.TelegramBot.KafkaConsumer\obj\Debug\net9.0\Segrom.JobObserver.TelegramBot.KafkaConsumer.dll
+H:\RiderProjects\Segrom.JobObserver\external\TelegramBot\Segrom.JobObserver.TelegramBot.KafkaConsumer\obj\Debug\net9.0\refint\Segrom.JobObserver.TelegramBot.KafkaConsumer.dll
+H:\RiderProjects\Segrom.JobObserver\external\TelegramBot\Segrom.JobObserver.TelegramBot.KafkaConsumer\obj\Debug\net9.0\Segrom.JobObserver.TelegramBot.KafkaConsumer.pdb
+H:\RiderProjects\Segrom.JobObserver\external\TelegramBot\Segrom.JobObserver.TelegramBot.KafkaConsumer\obj\Debug\net9.0\ref\Segrom.JobObserver.TelegramBot.KafkaConsumer.dll

@@ -1,0 +1,17 @@
+H:\RiderProjects\Segrom.JobObserver\external\TelegramBot\Segrom.JobObserver.TelegramBot.Client\bin\Debug\net9.0\Segrom.JobObserver.TelegramBot.Client.deps.json
+H:\RiderProjects\Segrom.JobObserver\external\TelegramBot\Segrom.JobObserver.TelegramBot.Client\bin\Debug\net9.0\Segrom.JobObserver.TelegramBot.Client.dll
+H:\RiderProjects\Segrom.JobObserver\external\TelegramBot\Segrom.JobObserver.TelegramBot.Client\bin\Debug\net9.0\Segrom.JobObserver.TelegramBot.Client.pdb
+H:\RiderProjects\Segrom.JobObserver\external\TelegramBot\Segrom.JobObserver.TelegramBot.Client\bin\Debug\net9.0\Segrom.JobObserver.TelegramBot.Application.dll
+H:\RiderProjects\Segrom.JobObserver\external\TelegramBot\Segrom.JobObserver.TelegramBot.Client\bin\Debug\net9.0\Segrom.JobObserver.TelegramBot.Domain.dll
+H:\RiderProjects\Segrom.JobObserver\external\TelegramBot\Segrom.JobObserver.TelegramBot.Client\bin\Debug\net9.0\Segrom.JobObserver.TelegramBot.Application.pdb
+H:\RiderProjects\Segrom.JobObserver\external\TelegramBot\Segrom.JobObserver.TelegramBot.Client\bin\Debug\net9.0\Segrom.JobObserver.TelegramBot.Domain.pdb
+H:\RiderProjects\Segrom.JobObserver\external\TelegramBot\Segrom.JobObserver.TelegramBot.Client\obj\Debug\net9.0\Segrom.JobObserver.TelegramBot.Client.csproj.AssemblyReference.cache
+H:\RiderProjects\Segrom.JobObserver\external\TelegramBot\Segrom.JobObserver.TelegramBot.Client\obj\Debug\net9.0\Segrom.JobObserver.TelegramBot.Client.GeneratedMSBuildEditorConfig.editorconfig
+H:\RiderProjects\Segrom.JobObserver\external\TelegramBot\Segrom.JobObserver.TelegramBot.Client\obj\Debug\net9.0\Segrom.JobObserver.TelegramBot.Client.AssemblyInfoInputs.cache
+H:\RiderProjects\Segrom.JobObserver\external\TelegramBot\Segrom.JobObserver.TelegramBot.Client\obj\Debug\net9.0\Segrom.JobObserver.TelegramBot.Client.AssemblyInfo.cs
+H:\RiderProjects\Segrom.JobObserver\external\TelegramBot\Segrom.JobObserver.TelegramBot.Client\obj\Debug\net9.0\Segrom.JobObserver.TelegramBot.Client.csproj.CoreCompileInputs.cache
+H:\RiderProjects\Segrom.JobObserver\external\TelegramBot\Segrom.JobObserver.TelegramBot.Client\obj\Debug\net9.0\Segrom.J.02402174.Up2Date
+H:\RiderProjects\Segrom.JobObserver\external\TelegramBot\Segrom.JobObserver.TelegramBot.Client\obj\Debug\net9.0\Segrom.JobObserver.TelegramBot.Client.dll
+H:\RiderProjects\Segrom.JobObserver\external\TelegramBot\Segrom.JobObserver.TelegramBot.Client\obj\Debug\net9.0\refint\Segrom.JobObserver.TelegramBot.Client.dll
+H:\RiderProjects\Segrom.JobObserver\external\TelegramBot\Segrom.JobObserver.TelegramBot.Client\obj\Debug\net9.0\Segrom.JobObserver.TelegramBot.Client.pdb
+H:\RiderProjects\Segrom.JobObserver\external\TelegramBot\Segrom.JobObserver.TelegramBot.Client\obj\Debug\net9.0\ref\Segrom.JobObserver.TelegramBot.Client.dll

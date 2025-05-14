@@ -1,0 +1,98 @@
+﻿name: Tests pipline
+run-name: ${{ github.actor }} run testing
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+
+jobs:
+  # Build
+  bot-build:
+    runs-on: ubuntu-latest
+    container: mcr.microsoft.com/dotnet/sdk:9.0
+    steps:
+      - uses: actions/checkout@v4
+      - name: Restore dependencies
+        run: dotnet restore external/TelegramBot/src/Segrom.JobObserver.TelegramBot.Host
+      - name: Build project
+        run: dotnet build external/TelegramBot/src/Segrom.JobObserver.TelegramBot.Host --no-restore
+
+  ozon-vacancies-build:
+    runs-on: ubuntu-latest
+    container: mcr.microsoft.com/dotnet/sdk:9.0
+    steps:
+      - uses: actions/checkout@v4
+      - name: Restore dependencies
+        run: dotnet restore src/Segrom.JobObserver.OzonService.Host
+      - name: Build project
+        run: dotnet build src/Segrom.JobObserver.OzonService.Host --no-restore
+  
+  # Unit tests
+  ozon-vacancies-unit-test:
+    runs-on: ubuntu-latest
+    container: mcr.microsoft.com/dotnet/sdk:9.0
+    needs: [ozon-vacancies-build]
+    steps:
+      - uses: actions/checkout@v4
+      - name: Restore test dependencies
+        run: dotnet restore test/Segrom.JobObserver.OzonService.Test
+      - name: Build tests
+        run: dotnet build test/Segrom.JobObserver.OzonService.Test --no-restore
+      - name: Run unit tests
+        working-directory: test/Segrom.JobObserver.OzonService.Test
+        run: dotnet test --no-restore
+
+  bot-unit-test:
+    runs-on: ubuntu-latest
+    container: mcr.microsoft.com/dotnet/sdk:9.0
+    needs: [bot-build]
+    steps:
+      - uses: actions/checkout@v4
+      - name: Restore test dependencies
+        run: dotnet restore external/TelegramBot/test/Segrom.JobObserver.TelegramBot.Test
+      - name: Build tests
+        run: dotnet build external/TelegramBot/test/Segrom.JobObserver.TelegramBot.Test --no-restore
+      - name: Run unit tests
+        working-directory: external/TelegramBot/test/Segrom.JobObserver.TelegramBot.Test
+        run: dotnet test --no-restore
+
+  # Integration tests
+  integration-test:
+    runs-on: ubuntu-latest
+    container: mcr.microsoft.com/dotnet/sdk:9.0
+    needs: [ozon-vacancies-build, bot-build]
+    services:
+      postgres:
+        image: postgres:latest
+        env:
+          POSTGRES_DB: test
+          POSTGRES_USER: postgres
+          POSTGRES_PASSWORD: postgres
+          POSTGRES_HOST_AUTH_METHOD: trust
+        ports:
+          - 5432:5432
+        options: >-
+          --health-cmd pg_isready
+          --health-interval 10s
+          --health-timeout 5s
+          --health-retries 5
+      kafka:
+        image: krisgeus/docker-kafka
+        env:
+          ADVERTISED_LISTENERS: PLAINTEXT://localhost:9092
+          LISTENERS: PLAINTEXT://0.0.0.0:9092
+        ports:
+          - 9092:9092
+    env:
+      POSTGRES_CONNECTION: "Host=localhost;Database=test;Username=postgres;Password=postgres"
+      KAFKA_BOOTSTRAP_SERVERS: "localhost:9092"
+    steps:
+      - uses: actions/checkout@v4
+      - name: Restore test dependencies
+        run: dotnet restore test/Segrom.JobObserver.IntegrationTest
+      - name: Build tests
+        run: dotnet build test/Segrom.JobObserver.IntegrationTest --no-restore
+      - name: Run integration tests
+        working-directory: test/Segrom.JobObserver.IntegrationTest
+        run: dotnet test --no-restore

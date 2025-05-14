@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Segrom.JobObserver.TelegramBot.Host.props" />
+</Project>

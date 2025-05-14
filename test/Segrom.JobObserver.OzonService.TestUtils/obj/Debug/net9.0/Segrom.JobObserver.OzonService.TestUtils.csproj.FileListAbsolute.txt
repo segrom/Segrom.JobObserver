@@ -1,0 +1,12 @@
+H:\RiderProjects\Segrom.JobObserver\test\Segrom.JobObserver.OzonService.TestUtils\bin\Debug\net9.0\Segrom.JobObserver.OzonService.TestUtils.deps.json
+H:\RiderProjects\Segrom.JobObserver\test\Segrom.JobObserver.OzonService.TestUtils\bin\Debug\net9.0\Segrom.JobObserver.OzonService.TestUtils.dll
+H:\RiderProjects\Segrom.JobObserver\test\Segrom.JobObserver.OzonService.TestUtils\bin\Debug\net9.0\Segrom.JobObserver.OzonService.TestUtils.pdb
+H:\RiderProjects\Segrom.JobObserver\test\Segrom.JobObserver.OzonService.TestUtils\obj\Debug\net9.0\Segrom.JobObserver.OzonService.TestUtils.csproj.AssemblyReference.cache
+H:\RiderProjects\Segrom.JobObserver\test\Segrom.JobObserver.OzonService.TestUtils\obj\Debug\net9.0\Segrom.JobObserver.OzonService.TestUtils.GeneratedMSBuildEditorConfig.editorconfig
+H:\RiderProjects\Segrom.JobObserver\test\Segrom.JobObserver.OzonService.TestUtils\obj\Debug\net9.0\Segrom.JobObserver.OzonService.TestUtils.AssemblyInfoInputs.cache
+H:\RiderProjects\Segrom.JobObserver\test\Segrom.JobObserver.OzonService.TestUtils\obj\Debug\net9.0\Segrom.JobObserver.OzonService.TestUtils.AssemblyInfo.cs
+H:\RiderProjects\Segrom.JobObserver\test\Segrom.JobObserver.OzonService.TestUtils\obj\Debug\net9.0\Segrom.JobObserver.OzonService.TestUtils.csproj.CoreCompileInputs.cache
+H:\RiderProjects\Segrom.JobObserver\test\Segrom.JobObserver.OzonService.TestUtils\obj\Debug\net9.0\Segrom.JobObserver.OzonService.TestUtils.dll
+H:\RiderProjects\Segrom.JobObserver\test\Segrom.JobObserver.OzonService.TestUtils\obj\Debug\net9.0\refint\Segrom.JobObserver.OzonService.TestUtils.dll
+H:\RiderProjects\Segrom.JobObserver\test\Segrom.JobObserver.OzonService.TestUtils\obj\Debug\net9.0\Segrom.JobObserver.OzonService.TestUtils.pdb
+H:\RiderProjects\Segrom.JobObserver\test\Segrom.JobObserver.OzonService.TestUtils\obj\Debug\net9.0\ref\Segrom.JobObserver.OzonService.TestUtils.dll

@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net9.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Confluent.Kafka" Version="2.10.0" />
+      <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="9.0.4" />
+      <PackageReference Include="Microsoft.Extensions.Hosting.Abstractions" Version="9.0.4" />
+      <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="9.0.4" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Segrom.JobObserver.TelegramBot.Application\Segrom.JobObserver.TelegramBot.Application.csproj" />
+      <ProjectReference Include="..\Segrom.JobObserver.TelegramBot.Domain\Segrom.JobObserver.TelegramBot.Domain.csproj" />
+    </ItemGroup>
+
+</Project>

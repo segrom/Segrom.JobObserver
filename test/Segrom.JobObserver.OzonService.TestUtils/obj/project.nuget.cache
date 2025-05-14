@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "4C8iTjqfkc4=",
+  "success": true,
+  "projectFilePath": "H:\\RiderProjects\\Segrom.JobObserver\\test\\Segrom.JobObserver.OzonService.TestUtils\\Segrom.JobObserver.OzonService.TestUtils.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\segro_c4h97pj\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\9.0.4\\microsoft.extensions.dependencyinjection.abstractions.9.0.4.nupkg.sha512",
+    "C:\\Users\\segro_c4h97pj\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\9.0.4\\microsoft.extensions.logging.abstractions.9.0.4.nupkg.sha512",
+    "C:\\Users\\segro_c4h97pj\\.nuget\\packages\\xunit.abstractions\\2.0.3\\xunit.abstractions.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
