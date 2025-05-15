@@ -13,6 +13,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "common", "common", "{A3D478
 		.env = .env
 		prometheus.yml = prometheus.yml
 		graylog.conf = graylog.conf
+		.github\workflows\tests.yml = .github\workflows\tests.yml
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{10CFBD8F-8C79-4433-A24C-6362A7C7035D}"

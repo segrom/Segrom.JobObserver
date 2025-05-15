@@ -17,7 +17,7 @@ services:
     image: telegram-bot-service
     container_name: telegram-bot-service
     build:
-      dockerfile: ./external/TelegramBot/Segrom.JobObserver.TelegramBot.Host/Dockerfile
+      dockerfile: "./external/TelegramBot/src/Segrom.JobObserver.TelegramBot.Host/Dockerfile"
     healthcheck:
       test: [ "CMD-SHELL", "curl --fail http://localhost:5001/health || exit 1" ]
       interval: 10s
@@ -41,7 +41,7 @@ services:
     image: segrom.ozon-vacancy-service
     container_name: ozon-vacancy-service
     build:
-      dockerfile: ./src/Segrom.JobObserver.OzonService.Host/Dockerfile
+      dockerfile: "./src/Segrom.JobObserver.OzonService.Host/Dockerfile"
     healthcheck:
       test: ["CMD-SHELL", "curl --fail http://localhost:5001/health || exit 1"]
       interval: 10s
@@ -61,8 +61,8 @@ services:
       - kafka-1
     networks:
       - main
-  
-# Database
+
+  # Database
   ozon-vacancy-db:
     image: postgres:latest
     container_name: ozon-vacancy-db
