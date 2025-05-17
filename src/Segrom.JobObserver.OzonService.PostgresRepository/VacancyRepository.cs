@@ -37,6 +37,7 @@ internal sealed class VacancyRepository(
         """;
     public async Task CreateVacanciesAsync(IReadOnlyList<Vacancy> vacancies, CancellationToken cancellationToken)
     {
+        cancellationToken.ThrowIfCancellationRequested();
         await using var connection = connectionFactory.CreateConnection();
         await connection.OpenAsync(cancellationToken);
         await using var transaction = await connection.BeginTransactionAsync(cancellationToken);
@@ -80,8 +81,11 @@ internal sealed class VacancyRepository(
             
             await connection.ExecuteAsync(cmd);
             
-            await outboxFiller.InsertRecord(transaction, brokerOptions.Value.NewVacanciesTopic,
-                Encoding.Unicode.GetBytes(JsonSerializer.Serialize(vacancies)));
+            await outboxFiller.InsertRecord(
+                transaction, 
+                topic: brokerOptions.Value.NewVacanciesTopic,
+                value: Encoding.Unicode.GetBytes(JsonSerializer.Serialize(vacancies)), 
+                cancellationToken: cancellationToken);
             
             await transaction.CommitAsync(cancellationToken);
             logger.LogInformation("Created {Count} vacancies", vacancies.Count);
@@ -120,6 +124,7 @@ internal sealed class VacancyRepository(
         """;
     public async Task UpdateVacanciesAsync(IReadOnlyList<Vacancy> vacancies, CancellationToken cancellationToken)
     {
+        cancellationToken.ThrowIfCancellationRequested();
         await using var connection = connectionFactory.CreateConnection();
         await connection.OpenAsync(cancellationToken);
         await using var transaction = await connection.BeginTransactionAsync(cancellationToken);
@@ -192,6 +197,7 @@ internal sealed class VacancyRepository(
         """;
     public async Task<IReadOnlyList<Vacancy>> GetVacancies(VacanciesQuery query, CancellationToken cancellationToken)
     {
+        cancellationToken.ThrowIfCancellationRequested();
         try
         {
             var sql = VACANCIES_REQUEST_SQL;

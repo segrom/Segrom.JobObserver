@@ -25,8 +25,8 @@ internal sealed class MessagesRepository(
         """;
      public async Task<IReadOnlyDictionary<long, List<VacancyMessage>>> GetMessagesByVacancies(IList<Vacancy> vacancies, CancellationToken cancellationToken)
     {
+        cancellationToken.ThrowIfCancellationRequested();
         await using var connection = connectionFactory.CreateConnection();
-        var ids = vacancies.Select(v => v.Id).ToList();
         var results = new Dictionary<long, List<VacancyMessage>>();
         try
         {
@@ -62,6 +62,7 @@ internal sealed class MessagesRepository(
         """;
     public async Task<IReadOnlyList<long>> GetAllChats(CancellationToken cancellationToken)
     {
+        cancellationToken.ThrowIfCancellationRequested();
         await using var connection = connectionFactory.CreateConnection();
         try
         {
@@ -90,6 +91,7 @@ internal sealed class MessagesRepository(
         """;
     public async Task AddMessages(IList<VacancyMessage> messages, CancellationToken cancellationToken)
     {
+        cancellationToken.ThrowIfCancellationRequested();
         await using var connection = connectionFactory.CreateConnection();
         var ids = new int[messages.Count];
         var chatIds = new long[messages.Count];
@@ -144,6 +146,7 @@ internal sealed class MessagesRepository(
         """;
     public async Task UpdateMessages(IList<VacancyMessage> messages, CancellationToken cancellationToken)
     {
+        cancellationToken.ThrowIfCancellationRequested();
         await using var connection = connectionFactory.CreateConnection();
         var ids = new int[messages.Count];
         var chatIds = new long[messages.Count];

@@ -21,8 +21,12 @@ internal sealed class OutboxRepository(
         """
         INSERT INTO outbox VALUES (DEFAULT, @topic, @key, @value, NULL, @inserted_at);
         """;
-    public async Task InsertRecord(NpgsqlTransaction transaction, string topic, byte[] value, byte[]? key = null)
+    public async Task InsertRecord(
+        NpgsqlTransaction transaction, 
+        string topic, byte[] value, byte[]? key = null, 
+        CancellationToken cancellationToken = default)
     {
+        cancellationToken.ThrowIfCancellationRequested();
         try
         {
             var connection = transaction.Connection!;
@@ -60,6 +64,7 @@ internal sealed class OutboxRepository(
         """;
     public async Task<List<OutboxRecord>> GetRecords(CancellationToken cancellationToken)
     {
+        cancellationToken.ThrowIfCancellationRequested();
         try
         {
             await using var connection = connectionFactory.CreateConnection();
@@ -90,6 +95,7 @@ internal sealed class OutboxRepository(
         """DELETE FROM outbox WHERE id = ANY(@deleteIds::INTEGER[]);""";
     public async Task DeleteRecords(List<OutboxRecord> records, CancellationToken cancellationToken)
     {
+        cancellationToken.ThrowIfCancellationRequested();
         await using var connection = connectionFactory.CreateConnection();
         var ids = records.Select(x => x.Id).ToArray();
         try

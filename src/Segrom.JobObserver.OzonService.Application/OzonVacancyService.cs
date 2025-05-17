@@ -51,7 +51,11 @@ internal sealed class OzonVacancyService(
         try
         {
             return await repository.GetVacancies(
-                new VacanciesQuery(limit, page), cancellationToken);
+                new VacanciesQuery(
+                    Limit: limit,
+                    Offset: page
+                ),
+                cancellationToken);
         }
         catch (Exception e)
         {
@@ -73,6 +77,7 @@ internal sealed class OzonVacancyService(
 
             foreach (var oldVacancy in oldVacancies)
             {
+                cancellationToken.ThrowIfCancellationRequested();
                 var newVacancy = newVacancies.FirstOrDefault(x => x.Id == oldVacancy.Id);
                 if (newVacancy is null)
                 {
@@ -114,9 +119,14 @@ internal sealed class OzonVacancyService(
         try
         {
             var vacancies = await repository.GetVacancies(
-                new VacanciesQuery(5, 0, Ids: [id]),
+                new VacanciesQuery(
+                    Limit: 5, 
+                    Offset: 0, 
+                    Ids: [id]),
                 cancellationToken);
             var vacancy = vacancies.FirstOrDefault();
+            
+            cancellationToken.ThrowIfCancellationRequested();
             if (vacancy is null)
             {
                 throw new Exception($"Vacancy not found ({id})");
@@ -141,8 +151,11 @@ internal sealed class OzonVacancyService(
         IReadOnlyList<Vacancy> batch;
         do
         {
+            cancellationToken.ThrowIfCancellationRequested();
             batch = await repository.GetVacancies(
-                new VacanciesQuery(ALL_VACANCIES_DISCHARGE_BATCH_SIZE, page),
+                new VacanciesQuery(
+                    Limit: ALL_VACANCIES_DISCHARGE_BATCH_SIZE, 
+                    Offset: page),
                 cancellationToken);
             result.AddRange(batch);
         } while (batch.Count == ALL_VACANCIES_DISCHARGE_BATCH_SIZE);
@@ -156,8 +169,10 @@ internal sealed class OzonVacancyService(
         IReadOnlyList<Vacancy> batch;
         do
         {
+            cancellationToken.ThrowIfCancellationRequested();
             batch = await apiClient.GetVacanciesAsync(
-                ALL_VACANCIES_DISCHARGE_BATCH_SIZE, page,
+                limit: ALL_VACANCIES_DISCHARGE_BATCH_SIZE, 
+                page: page,
                 cancellationToken);
             result.AddRange(batch);
         } while (batch.Count == ALL_VACANCIES_DISCHARGE_BATCH_SIZE);

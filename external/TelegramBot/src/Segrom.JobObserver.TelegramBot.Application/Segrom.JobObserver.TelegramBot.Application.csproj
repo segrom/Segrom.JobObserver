@@ -16,4 +16,7 @@
       <ProjectReference Include="..\Segrom.JobObserver.TelegramBot.Domain\Segrom.JobObserver.TelegramBot.Domain.csproj" />
     </ItemGroup>
 
+    <ItemGroup>
+        <InternalsVisibleTo Include="Segrom.JobObserver.TelegramBot.Test" />
+    </ItemGroup>
 </Project>

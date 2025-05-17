@@ -23,6 +23,7 @@ internal sealed class BotService(
 			{
 				foreach (var vacancy in vacancies)
 				{
+					cancellationToken.ThrowIfCancellationRequested();
 					var messageId = await bot.SendNewVacancyMessage(vacancy, chatId, cancellationToken);
 					newMessages.Add(new VacancyMessage
 					{
@@ -37,7 +38,6 @@ internal sealed class BotService(
 		}
 		catch (Exception e)
 		{
-			//logger.LogError(e, "Failed to handle new vacancies, error: {Error}", e.Message);
 			throw new AppException("Failed to handle new vacancies", e);
 		}
 	}
@@ -50,6 +50,7 @@ internal sealed class BotService(
 			logger.LogInformation("Received {MessagesCount} messages for {VacanciesCount} vacancies", messagesPerVacancies.Count, vacancies.Count);
 			foreach (var vacancy in vacancies)
 			{
+				cancellationToken.ThrowIfCancellationRequested();
 				var messages = messagesPerVacancies[vacancy.Id];
 				foreach (var message in messages)
 				{
@@ -59,7 +60,6 @@ internal sealed class BotService(
 		}
 		catch (Exception e)
 		{
-			//logger.LogError(e, "Failed to update vacancies, error: {Error}", e.Message);
 			throw new AppException("Failed to update vacancies", e);
 		}
 	}
@@ -73,6 +73,7 @@ internal sealed class BotService(
 
 			foreach (var vacancy in vacancies)
 			{
+				cancellationToken.ThrowIfCancellationRequested();
 				var messageId = await bot.SendNewVacancyMessage(vacancy, chatId, cancellationToken);
 				newMessages.Add(new VacancyMessage
 				{
@@ -85,7 +86,6 @@ internal sealed class BotService(
 		}
 		catch (Exception e)
 		{
-			//logger.LogError(e, "Failed to init new chat, error: {Message}", e.Message);
 			throw new AppException("Failed to init new chat", e);
 		}
 	}
@@ -98,7 +98,6 @@ internal sealed class BotService(
 		}
 		catch (Exception e)
 		{
-			//logger.LogError(e, "Failed to request vacancy info fill, error: {Error}", e.Message);
 			throw new AppException("Failed to request vacancy info fill", e);
 		}
 	}
